@@ -1,0 +1,1 @@
+export {default as Mas_visitados} from './masvisitados';

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&family=Montserrat:wght@300;400;500&display=swap');
+@import 'variables';
+
+*{
+    font-family: $Montserrat;
+    font-family: $MPlusRounded1c;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    &::selection {
+        background: $celeste;
+        color: $negro;
+    }
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav, header, section, footer{
+    width: 100%;
+    overflow: hidden;
+}
